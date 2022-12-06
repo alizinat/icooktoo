@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ReciepeInformation {
 
     String Information;
-    String Summry;
+    String Summary;
     String ImagePath;
     String Counsine;
     String TimeRequired;
@@ -15,9 +15,9 @@ public class ReciepeInformation {
     String Description;
 
 
-    public ReciepeInformation(String information, String summry, String imagePath, String counsine, String timeRequired, String gluten, String veg,String dairy, String description) {
+    public ReciepeInformation(String information, String summary, String imagePath, String counsine, String timeRequired, String gluten, String veg,String dairy, String description) {
         Information = information;
-        Summry = summry;
+        Summary = summary;
         ImagePath = imagePath;
         Counsine = counsine;
         TimeRequired = timeRequired;
@@ -92,12 +92,12 @@ public class ReciepeInformation {
     }
 
 
-    public String getSummry() {
-        return Summry;
+    public String getSummary() {
+        return Summary;
     }
 
-    public void setSummry(String summry) {
-        Summry = summry;
+    public void setSummary(String summary) {
+        Summary = summary;
     }
 
 
